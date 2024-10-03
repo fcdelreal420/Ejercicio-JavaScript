@@ -1,0 +1,80 @@
+/* Cambia el fondo de la página */
+body {
+    background-color: #f4f4f9; /* Color de fondo suave */
+    font-family: Arial, sans-serif; /* Fuente limpia y legible */
+}
+
+/* Estilo del contenedor */
+.contenedor {
+    width: 500px;
+    height: auto;
+    border: 3px solid #4a90e2; /* Borde azul suave */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    background-color: #ffffff; /* Fondo blanco del formulario */
+    font-family: Arial, sans-serif;
+    margin: 50px auto; /* Centrado con margen superior */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    padding: 20px; /* Espacio interno */
+}
+
+/* Estilo para mensajes de error */
+.errores {
+    color: #e74c3c; /* Rojo intenso para destacar errores */
+    font-size: 12px;
+}
+
+/* Caja de información */
+.info-box {
+    border: 2px solid #8e44ad; /* Borde púrpura */
+    background-color: #f9f6ff; /* Fondo más claro */
+    padding: 20px;
+    width: 300px;
+    display: none;
+    margin: 20px auto; /* Centrado */
+    text-align: center;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Párrafos dentro de la caja de información */
+.info-box p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+/* Estilos del formulario */
+form {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos de los inputs */
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Inputs redondeados */
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra interna */
+}
+
+/* Botón de cerrar */
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    background-color: #e74c3c; /* Rojo llamativo */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px; /* Botón redondeado */
+}
+
+/* Efecto hover en el botón de cerrar */
+.close-btn:hover {
+    background-color: #c0392b; /* Color más oscuro al pasar el cursor */
+}

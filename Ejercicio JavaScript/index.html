@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Ejercicio JavaScript</title> 
+</head>
+<body>
+    <div class="contenedor">
+   
+    <br><br> 
+    <form id="Formulario">
+    <label for="text">FORMULARIO</label>
+
+
+    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre "> 
+    <span class="errores" id="nombre"></span><br><br>
+
+
+    <input type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus Apellidos ">
+    <span class="errores" id="apellidos"></span> <br><br>
+
+
+    <input type="number" name="edad" id="edad" placeholder="Ingrese su Edad ">
+    <span class="errores" id="edad"></span><br><br>
+    
+    <button type="submit"> Enviar</button>
+   </form>
+   
+</div>
+
+<div class="info-box" id="infoBox">
+    <button class="close-btn" id="closeBtn">Cerrar</button>
+    <p><strong>Nombre:</strong> <span id="displayNombre"></span></p>
+    <p><strong>Apellidos:</strong> <span id="displayApellidos"></span></p>
+    <p><strong>Edad:</strong> <span id="displayEdad"></span></p>
+</div>
+
+   <script src="JS/script.js"></script>
+</body>
+</html>
